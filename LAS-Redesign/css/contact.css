@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	background-color: black;
+	color: white;
+	font-family: Quicksand;
+	position: relative;
+	height: 100%;
+}
+
+
+.contact {
+	text-align: center;
+	font-size: 2.5em;
+	text-decoration: underline
+}
+
+.leftside {
+float: left;
+width: 42%;
+text-align: center;
+padding-left: 5em;
+padding-top: 1em;
+}
+
+.info1 {
+text-align: left;
+
+}
+
+.contactustoday {
+font-size: 1.5em;
+}
+
+input[type=text],
+select {
+	width: 100%;
+	padding: 8px 16px;
+	margin: 7px 0;
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 50%;
+	background-color: yellow;
+	color: black;
+	padding: 14px 20px;
+	margin: 7px 0;
+	border: none;
+	border-radius: 5px;
+	position: relative;
+	left: 25%;
+	margin-bottom: 2em;
+}
+
+input[type=submit]:hover {
+	background-color: black;
+	color: white;
+}
+
+.input {
+color: lightgrey;
+}
+
+.inputmessage {
+height: 6.3em;
+}
+
+.form {
+	float: left;
+	width: 42%;
+	height: 70%;
+	margin-left: 2%;
+	background-color: midnightblue;
+	margin-top: 3%;
+}
+
+.fb {
+	height: 20px;
+	width: 20px;
+}
+
+.insta {
+	height: 20px;
+	width: 20px;
+}
+
+.twitter {
+	height: 20px;
+	width: 20px;
+}
+
+
+.footer {
+	float: left;
+	margin: auto;
+	width: 70%;
+}
+
+.social {
+	display: inline-block;
+	margin: auto;
+	position: relative;
+	left: 68%;
+	padding-top: 1%;
+
+}
+
+
+.footerline {
+	width: 100%;
+	display: block;
+	position: relative;
+	left: 22%;
+	border-style: inset;
+	border-width: 1px;
+	margin-top: 7%;
+}
+
+.footertext {
+	text-align: center;
+	width: 120%;
+	position: relative;
+	left: 12%;
+
+}
+
+@media screen and (max-width: 588px) {
+    .form {
+position: relative;
+left: 9%;
+width: 80%;
+margin-left: 0%;
+}
+
+	.leftside {
+	position: relative;
+width: 80%;
+left: 9%;
+margin-left: 0%;
+padding-left: 0%;
+    }
+
+}
+
+
+/*
+@media screen and (max-width: 1130px) {
+    .form {
+			margin-left: 55%;
+    }
+}

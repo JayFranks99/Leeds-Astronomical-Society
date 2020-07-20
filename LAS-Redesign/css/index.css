@@ -1,0 +1,90 @@
+html {
+	height: 100%; /* important for vertical alignment to work*/
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: black;
+	color: white;
+	background-image: url("../images/backg.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	max-width:100%;
+	height: 100%;
+	font-family: 'Electrolize', sans-serif;
+	overflow: hidden;
+}
+
+/*---------------------------------LANDING------------------------------------*/
+
+.container {
+	position: relative;
+	height: 80%;
+	width: 73%;
+	margin: 0 auto;
+}
+
+.landing-content {
+	width: 100%;
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+ 	-ms-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+	text-align: center; /*HORIZONTAL CENTERING*/
+	line-height: 2;
+}
+
+.intro-heading {
+	margin: 0 auto;
+	font-size: 2.5rem;
+	color: yellow;
+}
+
+.intro-description {
+	width: 70%;
+	margin: 0 auto;
+	font-size: 1.25em;
+	text-align: center;
+	color: white;
+}
+
+.meetings-link {
+	color: white;
+}
+
+
+  /*---------------------------------MEDIA QUERIES------------------------------------*/
+
+@media (max-width: 1200px) {
+
+}
+
+
+/*--------------------------MEDIUM DEVICES------------------------*/
+
+@media (max-width: 768px) {
+
+	.intro-heading {
+		font-size: 2.25rem;
+		line-height: 1.5;
+	}
+
+	.intro-description {
+		font-size: 1.2rem;
+	}
+
+}
+
+
+
+
+
+/*--------------------------SMALL DEVICES------------------------*/
+
+@media (max-width: 600px) {
+
+
+}

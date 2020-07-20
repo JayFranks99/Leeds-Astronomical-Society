@@ -1,0 +1,155 @@
+/*-----------------NAVIGATION BAR-------------------*/
+
+.navbar-container {
+  padding: 1% 13.5%;
+}
+
+.normal-navbar {
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+
+.branding {
+width: 300px;
+height: 75px;
+}
+
+.nav-link {
+font-family: 'Electrolize', sans-serif;
+ font-size: 15px;
+ text-decoration: none;
+ color: white;
+ padding: 30px 30px;
+ padding-right: 0;
+ margin: 0;
+ display: inline-block;
+ position: relative;
+}
+
+.active {
+color: yellow !important;
+}
+
+.nav-link:hover {
+ color: yellow;
+}
+
+.navbar-brand {
+  display: inline-block;
+}
+
+.hamburger {
+  float: right;
+  display: none;  /* HIDE HAMBURGER UNTIL THE DEVICE HITS A SMALLER SCREEN*/
+  margin: 2.5%;
+  color: white;
+}
+
+
+/*---------------FULL SCREEN HAMBURGER NAV--------------------*/
+
+.overlay { /* .myNav (overlay) TARGETED IN JS TO OPEN/CLOSE THE NAV - CHANGING HEIGHT TO 100% TO OPEN NAV, 0% HEIGHT TO CLOSE*/
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s; /* Smooth transition to the opening and closing functions*/
+}
+
+.overlay-content {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-links-overlay {
+  padding: 20px 0;
+  margin: 0 30%;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: white;
+  display: block;
+  position: relative;
+}
+
+.nav-links-overlay:hover{
+  color: yellow;
+  text-decoration: none;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 1%;
+  right: 18.5%;
+  font-size: 40px;
+  text-decoration: none !important;
+  color: white;
+}
+
+  /*---------------------------------MEDIA QUERIES------------------------------------*/
+
+@media (max-width: 1200px) {
+  .hamburger {
+    display: inline-block;
+  }
+  .normal-navbar {
+    display: none;
+  }
+}
+
+
+/*--------------------------MEDIUM DEVICES------------------------*/
+
+@media (max-width: 768px) {
+  .hamburger {
+    margin-top: 3%;
+  }
+}
+
+
+
+
+
+/*--------------------------SMALL DEVICES------------------------*/
+
+@media (max-width: 600px) {
+
+  .hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 12%;
+    left: 0;
+  }
+
+  .navbar-brand {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .branding {
+    width: 100%;
+    height: 20%;
+  }
+
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}

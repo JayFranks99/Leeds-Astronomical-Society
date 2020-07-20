@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	background-color: black;
+	color: white;
+	font-family: Quicksand;
+	position: relative;
+	height: 100%;
+}
+
+.gallery{
+text-align: center;
+font-size: 2.5em;
+text-decoration: underline;
+}
+
+
+.images {
+margin: 5px;
+border: 1px solid yellow;
+float: left;
+width: 280px;
+}
+
+.g1 {
+height: 150px;
+width: 260px;
+padding: 10px 10px;
+}
+
+.g2 {
+height: 150px;
+width: 260px;
+padding: 10px 10px;
+}
+
+.g3 {
+height: 150px;
+width: 260px;
+padding: 10px 10px;
+}
+
+.text {
+  padding: 10px;
+  text-align: center;
+}
+
+.row1 {
+position: relative;
+left: 18%;
+width: 70%;
+}
+
+.row2 {
+float: left;
+position: relative;
+left: 18%;
+width: 70%;
+}
+
+.row3 {
+float: left;
+position: relative;
+left: 18%;
+width: 70%;
+}
+
+
+.fb {
+	height: 20px;
+	width: 20px;
+}
+
+.insta {
+	height: 20px;
+	width: 20px;
+}
+
+.twitter {
+	height: 20px;
+	width: 20px;
+}
+
+
+.footer {
+	float: left;
+	margin: auto;
+	width: 70%;
+}
+
+.social {
+	display: inline-block;
+	margin: auto;
+	position: relative;
+	left: 68%;
+	padding-top: 1%;
+
+}
+
+
+.footerline {
+	width: 100%;
+	display: block;
+	position: relative;
+	left: 22%;
+	border-style: inset;
+	border-width: 1px;
+	margin-top: 7%;
+}
+
+.footertext {
+	text-align: center;
+	width: 120%;
+	position: relative;
+	left: 12%;
+	}
+
+
+
+
+@media screen and (max-width: 851px) {
+	.allimages {
+	position: relative;
+	left: 8%;
+
+
+	}
