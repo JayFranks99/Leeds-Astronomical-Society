@@ -1,0 +1,203 @@
+html {
+	height: 100%; /* important for vertical alignment to work*/
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	color: white;
+	background-image: url("../images/backg.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	max-width:100%;
+	height: 100%;
+	font-family: 'Electrolize', sans-serif;
+	overflow: hidden;
+	background-color: black;
+}
+
+/*---------------------------------LANDING------------------------------------*/
+
+.container {
+	position: relative;
+	height: 80%;
+	width: 73%;
+	margin: 0 auto;
+}
+
+.landing-content {
+	width: 100%;
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+ 	-ms-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+	text-align: center; /*HORIZONTAL CENTERING*/
+	line-height: 2;
+}
+
+.intro-heading {
+	margin: 0 auto;
+	font-size: 2.5rem;
+	color: yellow;
+}
+
+.intro-description {
+	width: 70%;
+	margin: 0 auto;
+	font-size: 1.25em;
+	text-align: center;
+	color: white;
+}
+
+.meetings-link {
+	color: white;
+}
+
+
+  /*---------------------------------MEDIA QUERIES------------------------------------*/
+
+@media (max-width: 1115px) {
+.intro-heading {
+	font-size: 2.25rem;
+}
+
+}
+
+@media (max-width: 1001px) {
+.intro-heading {
+	font-size: 2rem;
+}
+
+}
+
+@media (max-width: 1001px) {
+.intro-heading {
+	font-size: 2.5rem;
+	line-height: 1.25;
+	margin-bottom: 2%;
+}
+
+}
+
+/*--------------------------MEDIUM DEVICES------------------------*/
+
+@media (max-width: 768px) {
+
+	.intro-heading {
+		font-size: 2.25rem;
+		line-height: 1.5;
+	}
+
+	.intro-description {
+		font-size: 1.25rem;
+	}
+
+}
+
+
+/*--------------------------SMALL DEVICES------------------------*/
+
+@media (max-width: 600px) {
+
+	.intro-heading {
+		font-size: 2rem;
+		line-height: 1.75;
+	}
+
+	.intro-description {
+		font-size: 1.25rem;
+	}
+}
+
+@media (max-width: 496px) {
+	.navbar-container {
+    padding: 0% 5%;
+}
+
+	.intro-heading {
+		font-size: 1.75rem;
+		line-height: 1.5;
+	}
+
+	.intro-description {
+		font-size: 1.25rem;
+	}
+
+}
+
+
+@media (max-width: 430px) {
+
+.hamburger {
+	top: 65px;
+}
+
+.container {
+width: 95%;
+}
+
+.intro-heading {
+font-size: 1.75rem;
+line-height: 1.5;
+}
+
+.intro-description {
+font-size: 1.25rem;
+}
+
+
+/* Iphone Plus */
+@media (max-width: 414px) {
+
+.container {
+width: 95%;
+height: 70%;
+}
+
+.intro-heading {
+font-size: 1.75rem;
+line-height: 1.5;
+}
+
+.intro-description {
+font-size: 1.25rem;
+}
+
+/* Iphone 6/7/8 */
+@media (max-width: 375px) {
+
+	.hamburger {
+		top: 58px;
+	}
+
+	.container {
+	height: 75%;
+	}
+
+	.intro-heading {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	}
+
+	.intro-description {
+	font-size: 1rem;
+	}
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+	.hamburger {
+		top: 55px;
+	}
+
+.intro-heading {
+font-size: 1.5rem;
+line-height: 1.5;
+}
+
+.intro-description {
+font-size: 1rem;
+}
