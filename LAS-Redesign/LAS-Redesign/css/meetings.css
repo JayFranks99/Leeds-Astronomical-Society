@@ -10,160 +10,156 @@ body {
 .meetings{
 text-align: center;
 font-size: 2.5em;
-padding-bottom: 1em;
 text-decoration: underline
+}
 
+.container-meetings {
+	padding: 0 14%;
+	line-height: 2;
+}
+
+.meetings-top {
+	margin: 5% 0;
+}
+
+.maps-div {
+margin-top: 1%;
+float: right;
+width: 45%;
+}
+
+.meetings-left {
+	text-align: justify;
+	float: left;
+	width: 50%;
 }
 
 iframe {
-float: right;
-height: 260px;
-width: 550px;
-margin-right: 7em;
-margin-top: 1em;
+height: 420px;
+width: 100%;
 border: solid;
 border-color: yellow;
 }
 
-.titlee {
-float: left;
-margin-left: 5em;
+.title {
+	margin: 0;
+	padding: 0;
 }
 
-.info1 {
-float: left;
-width: 40%;
-margin-left: 6em;
-text-align: left;
-clear: left;
-}
 
-.formalmeetings {
+.formal-meetings-heading {
 float: left;
 text-align: center;
 width: 100%;
-padding-top: 1em;
-padding-bottom: 1em;
+margin: 5% 0;
 }
 
-.contentleft {
-float: left;
-margin-left: 6em;
-margin-top: 1em;
-width: 40%;
-text-align: left;
+.calendar-section {
+	float: left;
+	width: 50%;
 }
 
+.calendar-heading {
+	padding: 0;
+	margin: 0;
+}
 
 #calendar {
+margin-top: 2%;
 float: right;
-width: 36%;
-height: 16em;
+width: 100%;
+height: 350px;
 }
 
-#maps {
+.content-right {
 float: right;
-width: 36%;
-height: 18em;
+width: 45%;
+text-align: justify;
+margin-bottom: 5%;
 }
 
-.fb {
-	height: 20px;
-	width: 20px;
-}
 
-.insta {
-	height: 20px;
-	width: 20px;
-}
 
-.twitter {
-	height: 20px;
-	width: 20px;
-}
-
+  /*---------------------------------FOOTER-----------------------------------*/
 
 .footer {
+	background-color: black;
+	border-top: solid 1px white;
 	float: left;
-	margin: auto;
-	width: 70%;
-}
-
-.social {
-	display: inline-block;
-	margin: auto;
-	position: relative;
-	left: 68%;
-	padding-top: 1%;
-
-}
-
-
-.footerline {
 	width: 100%;
-	display: block;
-	position: relative;
-	left: 22%;
-	border-style: inset;
-	border-width: 1px;
-	margin-top: 7%;
-}
-
-.footertext {
+	margin: 0 auto !important;
+	color: white;
 	text-align: center;
-	width: 120%;
-	position: relative;
-	left: 12%;
-
+	padding: 1% 0;
 }
 
+.footer-link {
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: x-large;
+  }
 
-@media screen and (max-width: 936px) {
-	#maps {
-	clear: left;
-	position: relative;
-	margin-right: 7%;
-	margin-left: 0%;
-	width: 80%;
+  .footer-link:hover {
+    color: grey;
+  }
 
-    }
+  .copyright {
+  font-size: 0.75rem;
+  }
 
-	.middle {
-	clear:right;
-	position: relative;
-	left: 12%;
-	width: 100%;
-	height: auto;
-	margin-right: 10%;
-
+	@media (max-width: 1000px) {
+		.meetings-left {
+    width: 45%;
 		}
 
-	.info1 {
-	width: 81%;
-	margin-left: 0%;
-	margin-right: 1%
+		iframe {
+    height: 550px;
+		}
+
+		.calendar-section {
+    width: 45%;
+		}
+
+		#calendar {
+    height: 475px;
+		}
+
+		@media (max-width: 850px) {
+			.meetings-left {
+			width: 100%;
+			}
+
+			iframe {
+			height: 300px;
+			width: 100%;
+			}
+
+			.maps-div {
+				width: 100%;
+			}
+
+			.calendar-section {
+			width: 100%;
+			}
+
+			#calendar {
+			width: 100%;
+			height: 300px;
+			}
+
+			.content-right {
+				margin-top: 5%;
+				width: 100%;
+			}
+
 	}
 
-	.titlee {
-	margin-left: 0%;
-	margin-right: 1%;
+	@media (max-width: 600px) {
+
+	.meetings {
+		margin-top: 10%;
+		font-size: 1.75rem;
 	}
-}
 
-
-@media screen and (max-width: 891px) {
-	#calendar {
-	clear: left;
-	position: relative;
-	margin-right: 7%;
-	margin-left: 0%;
-	width: 80%;
-
-    }
-
-	.contentleft {
-	width: 80%;
-	margin-left: 0%;
-	position: relative;
-	left: 13%;
 	}

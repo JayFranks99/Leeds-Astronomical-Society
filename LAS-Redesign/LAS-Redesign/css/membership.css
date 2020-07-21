@@ -7,174 +7,127 @@ body {
 	height: 100%;
 }
 
-
-.juniorbox {
-padding: 10px!important;
-}
-
-
-.membership {
-	text-align: center;
-	font-size: 2.5em;
-	text-decoration: underline
-}
-
-.joinus {
-	text-align: center;
-	padding-top: 0.5em;
-}
-
-.member {
-	text-align: center;
-	padding-top: 1.5em;
-}
-
 p {
 	text-align: center;
 }
 
-.textleft {
-	text-align: left;
-	position: relative;
-	bottom: 2%;
+h1, h2, h3, h4, h5, h6 {
+	line-height: 2;
 }
 
+.container-membership {
+	line-height: 2;
+	padding: 0 13.5%;
+}
 
+.membership-heading {
+	text-align: center;
+	font-size: 2.5rem;
+	text-decoration: underline
+}
 
-#container {
+.join-section {
+	text-align: left;
 	width: 100%;
-	text-align: center;
 }
 
-#container > div {
-	width: calc(100% / 6);
-	display: inline-block;
-	vertical-align: top;
-	border: 2px solid white;
-	text-align: center;
-	margin: 2%;
-	padding: 20px;
-	background-color: yellow;
-}
-
-
-.underline {
-	text-decoration: underline;
-	color: black;
-	font-weight: bold;
-}
-
-.black {
-color: black;
-}
-
-.howtojoin {
-	padding-top: 1%;
-	float: left;
-	text-align: left;
-	position: relative;
-	left: 16%;
-	width: 70%;
-
-
-}
-
-.info2 {
+.join-text {
 	text-align: justify;
-	font-size: 1.1em;
+	font-size: 1rem;
 }
 
+.membership-section {
+	padding: 0 14%;
+}
 
-.entitles {
+.card {
+	margin: 10% 0;
+	text-align: center;
+	background-color: #1e1a1a;
+}
+
+.card-header {
+  background-color: white;
+	color: #1e1a1a;
+}
+
+.container-2 {
+	margin: 5% 0;
+}
+
+.entitles-section {
 	float: left;
 	text-align: left;
-	padding-top: 2%;
-	width: 35%;
-	position: relative;
-	left: 16%;
+	width: 55%;
+}
+
+.entitles-heading {
+	margin: 0;
+	font-size: 1.75rem;
+}
+
+.images-section {
+	float: right;
+	width: 40%;
 }
 
 
-.img1 {
-	float: left;
-	position: relative;
-	left: 18%;
-	width: 30%;
-	height: auto;
+.observatory-img {
+	margin: 4% 0;
+	width: 100%;
 	border: 2px;
 	border-style: solid;
 	color: yellow;
-	margin-top: 8%;
 }
 
-.fb {
-	height: 20px;
-	width: 20px;
-}
 
-.insta {
-	height: 20px;
-	width: 20px;
-}
-
-.twitter {
-	height: 20px;
-	width: 20px;
-}
-
+  /*---------------------------------FOOTER-----------------------------------*/
 
 .footer {
+	background-color: black;
+	border-top: solid 1px white;
 	float: left;
-	margin: auto;
-	width: 70%;
-}
-
-.social {
-	display: inline-block;
-	margin: auto;
-	position: relative;
-	left: 68%;
-	padding-top: 1%;
-
-}
-
-
-.footerline {
 	width: 100%;
-	display: block;
-	position: relative;
-	left: 22%;
-	border-style: inset;
-	border-width: 1px;
-	margin-top: 7%;
-}
-
-.footertext {
+	margin: 5% auto !important;
+	color: white;
 	text-align: center;
-	width: 120%;
-	position: relative;
-	left: 12%;
-
 }
 
+.footer-link {
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: x-large;
+  }
 
+  .footer-link:hover {
+    color: grey;
+  }
 
-@media screen and (max-width: 1125px) {
-	.img1 {
-	clear: left;
-		margin: auto;
-    width: 60%;
-		margin-top: 8%;
-    }
+  .copyright {
+  font-size: 0.75rem;
+  }
 
-	.entitles {
-	width: 60%;
-	}
-}
+	@media (max-width: 600px) {
 
-
-	@media screen and (max-width: 937px) {
-		#container > div  {
-			width: calc(100% / 3);
+		.container-membership {
+		    padding: 7.5%;
 		}
-}
+
+		.membership-heading {
+			font-size: 2rem;
+		}
+
+		.join {
+			font-size: 1.5rem;
+		}
+
+		.join-section {
+			 margin-top: 5%;
+		}
+
+		.join-text {
+    text-align: justify;
+		}
+
+	}

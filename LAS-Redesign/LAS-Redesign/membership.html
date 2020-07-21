@@ -12,12 +12,18 @@ Design, Leeds, Astronomy, Space, Science, Leeds Astronomy Society, Web Design, h
 
 <head>
 	<title>Membership</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link href="css/membership.css" rel="stylesheet">
 	<link href="css/nav.css" rel="stylesheet">
 
-	<!-- Custom Fonts -->
 
+	<!-- Custom Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+	<!-- Font Awesome Icons -->
+	<script src="https://kit.fontawesome.com/d3a2dc6aff.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -54,138 +60,86 @@ Design, Leeds, Astronomy, Space, Science, Leeds Astronomy Society, Web Design, h
 
 	<!--  END OF NAV -->
 
-	<h1 class="membership"> Membership </h1>
+	<div class="container-membership">
 
+		<h1 class="membership-heading"> Membership </h1>
 
-	<h2 class="member">MEMBERSHIP TYPES</h2>
-	<p> Join us today and discover more about our world</p>
+		<div class="join-section">
 
-
-
-	<div id="container">
-		<div>
-
-			<p class="underline"> Adults </p>
-			<p class="black"> £25 </p>
-
-			<p class="black"> 12 months </p>
-
-		</div>
-		<div class="juniorbox">
-			<p class="underline"> Juniors, Over 65's, Students, Unemployed </p>
-			<p class="black">£15</p>
-
-			<p class="black"> 12 months </p>
+			<p class="join-text"> If you are interested in joining the society, just come along to a meeting to listen to a talk and meet some of the members. Talk to our treasurer about joining. You are welcome to come to one or two meetings before
+				joining.
+			</p>
 
 		</div>
 
-		<div>
-			<p class="underline"> Institutional Package </p>
+		<!-- CARDS -->
 
-			<p class="black"> At least 12 students </p>
+		<section class="membership">
 
-			<p class="black"> 12 months </p>
+			<div class="row">
 
-		</div>
-	</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="card">
+						<div class="card-header">
+							<h3> Adults </h3>
+						</div>
+						<div class="card-body">
+							<h3> £25 / 12 Months</h3>
+							<p>- Observing sessions</p>
+							<p>- Free visits</p>
+							<p>- Free magazine</p>
+							<!-- <button class="btn-lg btn-block btn-outline-light" type="button">Get started</button> -->
+						</div>
+					</div>
+				</div>
 
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="card">
+						<div class="card-header">
+							<h3> Students </h3>
+						</div>
+						<div class="card-body">
+							<h3> £15 / 12 Months</h3>
+							<p>- Observing sessions</p>
+							<p>- Free visits</p>
+							<p>- Free magazine</p>
+							<!-- <button class="btn-lg btn-block btn-outline-light" type="button">Get started</button> -->
+						</div>
+					</div>
+				</div>
 
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="card">
+						<div class="card-header">
+							<h3> Juniors </h3>
+						</div>
+						<div class="card-body">
+							<h3> £10 / 12 Months</h3>
+							<p>- Observing sessions</p>
+							<p>- Free visits</p>
+							<p>- Free magazine</p>
+							<!-- <button class="btn-lg btn-block btn-outline-light" type="button">Get started</button> -->
+						</div>
+					</div>
+				</div>
 
-	<div class="howtojoin">
+			</div>
 
-		<h2> HOW TO JOIN:</h2>
+		</section>
 
-		<br>
-		<p class="textleft"> If you are interested in joining the society, just come along to a meeting to listen to a talk and meet some of the members. Talk to our treasurer about joining. You are welcome to come to one or two meetings before joining.</p>
-
-	</div>
-
-	<div class="entitles">
-		<h2> BEING A MEMBER ENTITLES YOU TO: </h2>
-
-		<br>
-
-		<li> Access to a full program of monthly meetings with visiting speakers </li>
-
-		<br>
-
-		<li> Take part in visits to observatories and other places of astronomical interest</li>
-
-		<br>
-
-		<li> Take part in observing sessions with other members of the society which are regularly on offer</li>
-
-		<br>
-
-		<li> Access to various magazine and reduction schemes through our membership to associations</li>
-
-		<br>
-
-		<li> A free quarterly 'magazine' called Nebula</li>
-
-		<br>
-
-		<li> Instruments available to all members</li>
-
-		<br>
-
-		<li> Books available to all members</li>
-
-
-
-	</div>
-
-	<div class="images2">
-
-		<img class="img1" img src="images/observatory.jpg" alt="astronomy image">
-
-
-	</div>
-
-<footer>
 		<div class="footer">
 
-			<hr class="footerline">
-
-			<div class="social">
-
-				<a href="https://www.facebook.com/leedsastronomicalsociety/">
-
-				<img class="fb" src="images/FB-logo.png" alt="facebook icon">
-
-				</a>
-
-				<img class="insta" src="images/instagram-logo.png" alt="instagram icon">
-
-				<a href="https://twitter.com/leedsas?lang=en">
-
-				<img class="twitter" src="images/twitter-logo.png" alt="twitter icon">
-
-				</a>
-
-			</div>
-
-
-			<div class="footertext">
-				<p> Copyright © Leeds Astronomical Society 2017 </p>
-
-				<p> Registered Charity 1101539</p>
-
-			</div>
+			<a class="footer-link" href="https://www.facebook.com/leedsastronomicalsociety/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+			<a class="footer-link" href="https://twitter.com/leedsas?lang=en"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+			<a class="footer-link" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<p class="copyright"> © Leeds Astronomical Society 2017</p>
+			<p class="copyright"> Registered Charity 1101539</p>
 
 		</div>
 
-		  <script src="js/index.js" charset="utf-8"></script>
+	</div>
 
-	</footer>
-
-
-
-
-
-
-	<script src="javascript/menu.js"></script>
-
+	<script src="js/index.js" charset="utf-8"></script>
 
 </body>
 

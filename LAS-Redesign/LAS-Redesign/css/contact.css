@@ -77,71 +77,50 @@ height: 6.3em;
 	margin-top: 3%;
 }
 
-.fb {
-	height: 20px;
-	width: 20px;
-}
-
-.insta {
-	height: 20px;
-	width: 20px;
-}
-
-.twitter {
-	height: 20px;
-	width: 20px;
-}
-
+/*---------------------------------FOOTER-----------------------------------*/
 
 .footer {
-	float: left;
-	margin: auto;
-	width: 70%;
+background-color: black;
+border-top: solid 1px white;
+float: left;
+width: 100%;
+margin: 0 auto !important;
+color: white;
+text-align: center;
+padding: 1% 0;
 }
 
-.social {
-	display: inline-block;
-	margin: auto;
-	position: relative;
-	left: 68%;
-	padding-top: 1%;
-
+.footer-link {
+color: white;
+padding: 10px;
+margin-top: 10px;
+font-size: x-large;
 }
 
-
-.footerline {
-	width: 100%;
-	display: block;
-	position: relative;
-	left: 22%;
-	border-style: inset;
-	border-width: 1px;
-	margin-top: 7%;
+.footer-link:hover {
+	color: grey;
 }
 
-.footertext {
-	text-align: center;
-	width: 120%;
-	position: relative;
-	left: 12%;
-
+.copyright {
+font-size: 0.75rem;
 }
+
 
 @media screen and (max-width: 588px) {
-    .form {
+.form {
 position: relative;
 left: 9%;
 width: 80%;
 margin-left: 0%;
 }
 
-	.leftside {
-	position: relative;
+.leftside {
+position: relative;
 width: 80%;
 left: 9%;
 margin-left: 0%;
 padding-left: 0%;
-    }
+}
 
 }
 
