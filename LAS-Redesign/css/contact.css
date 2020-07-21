@@ -14,141 +14,168 @@ body {
 	text-decoration: underline
 }
 
+.contact-container {
+	padding: 0 14%;
+	line-height: 2;
+}
+
 .leftside {
 float: left;
-width: 42%;
-text-align: center;
-padding-left: 5em;
-padding-top: 1em;
-}
-
-.info1 {
+width: 55%;
 text-align: left;
-
 }
 
-.contactustoday {
-font-size: 1.5em;
+.heading {
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+li {
+	line-height: 3;
+}
+
+.rightside {
+	margin-top: 1.5%;
+	float: right;
+	width: 40%
+}
+
+.form {
+	height: 70%;
+	background-color: midnightblue;
+	color: white;
+}
+
+.form p {
+	font-weight: bold;
+	margin: 2% 0;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
 }
 
 input[type=text],
 select {
 	width: 100%;
-	padding: 8px 16px;
-	margin: 7px 0;
+	padding: 8px 20px;
 	display: inline-block;
-	border: 1px solid white;
-	border-radius: 5px;
 	box-sizing: border-box;
 }
 
 input[type=submit] {
 	width: 50%;
-	background-color: yellow;
 	color: black;
 	padding: 14px 20px;
-	margin: 7px 0;
-	border: none;
-	border-radius: 5px;
 	position: relative;
 	left: 25%;
-	margin-bottom: 2em;
+	margin: 5% 0;
 }
 
 input[type=submit]:hover {
-	background-color: black;
-	color: white;
+	position: relative;
+	top: 2px;
 }
 
 .input {
-color: lightgrey;
+color: grey;
 }
 
 .inputmessage {
 height: 6.3em;
 }
 
-.form {
-	float: left;
-	width: 42%;
-	height: 70%;
-	margin-left: 2%;
-	background-color: midnightblue;
-	margin-top: 3%;
-}
-
-.fb {
-	height: 20px;
-	width: 20px;
-}
-
-.insta {
-	height: 20px;
-	width: 20px;
-}
-
-.twitter {
-	height: 20px;
-	width: 20px;
-}
-
+/*---------------------------------FOOTER-----------------------------------*/
 
 .footer {
-	float: left;
-	margin: auto;
-	width: 70%;
+background-color: black;
+border-top: solid 1px white;
+float: left;
+width: 100%;
+margin: 0 auto !important;
+color: white;
+text-align: center;
+padding: 1% 0;
 }
 
-.social {
-	display: inline-block;
-	margin: auto;
-	position: relative;
-	left: 68%;
-	padding-top: 1%;
-
+.footer-link {
+color: white;
+padding: 10px;
+margin-top: 10px;
+font-size: x-large;
 }
 
+.footer-link:hover {
+	color: grey;
+}
 
-.footerline {
+.copyright {
+font-size: 0.75rem;
+}
+
+@media (max-width: 1100px)  {
+
+.leftside {
 	width: 100%;
-	display: block;
-	position: relative;
-	left: 22%;
-	border-style: inset;
-	border-width: 1px;
-	margin-top: 7%;
-}
-
-.footertext {
 	text-align: center;
-	width: 120%;
+}
+
+.leftside p {
+	text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+.leftside li {
+	text-align: left;
+	width: 60%;
+  margin: 0 auto;
+}
+
+.heading {
+	margin: 2.5% 0;
+}
+
+.rightside {
+  margin: 10% 0;
+  width: 60%;
+  position: relative;
+  right: 20%;
+}
+
+}
+
+@media (max-width: 600px)  {
+.contact {
+	font-size: 2rem;
+}
+
+.contact-container {
+	padding: 0 7.5%;
+}
+
+.leftside p {
+	text-align: left;
+  width: 100%;
+  margin: 0 auto;
+}
+.leftside li {
+	text-align: left;
+	width: 100%;
+  margin: 0 auto;
+}
+
+.rightside {
+	margin: 10% 0;
+	width: 80%;
 	position: relative;
-	left: 12%;
-
+	right: 10%;
 }
 
-@media screen and (max-width: 588px) {
-    .form {
-position: relative;
-left: 9%;
-width: 80%;
-margin-left: 0%;
-}
-
-	.leftside {
-	position: relative;
-width: 80%;
-left: 9%;
-margin-left: 0%;
-padding-left: 0%;
-    }
-
-}
-
-
-/*
-@media screen and (max-width: 1130px) {
-    .form {
-			margin-left: 55%;
-    }
 }

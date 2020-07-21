@@ -163,6 +163,11 @@ color: yellow !important;
 	.hamburger {
 		top: 65px;
 	}
+
+  .overlay-content {
+    top: 17%;
+  }
+
 }
 
 /* Iphone 6/7/8 */
